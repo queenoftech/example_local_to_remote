@@ -1,0 +1,5 @@
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDC2jeBRAIp6+ojsbckxJvsTdu+6NVN8akImOgCraWs8 natinda2006@gmail.co
+ssh-keygen -t ed25519 -C natinda2006@gmail.com
+AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
